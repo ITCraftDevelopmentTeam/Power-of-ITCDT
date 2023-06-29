@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "power_of_itcdt",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "Power of ITCDT",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"YifanZhuZhu"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ITCraftDevelopmentTeam",
+		"sources": "https://github.com/ITCraftDevelopmentTeam/Power-of-ITCDT"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/power_of_itcdt/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.github.itcraftdevelopmentteam.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.github.itcraftdevelopmentteam.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"power_of_itcdt.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "power_of_itcdt.client.mixins.json",
 			"environment": "client"
 		}
 	],

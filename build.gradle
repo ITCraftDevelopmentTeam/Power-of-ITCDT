@@ -22,7 +22,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "modid" {
+        "power_of_itcdt" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }
