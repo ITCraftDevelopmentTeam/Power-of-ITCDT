@@ -3,7 +3,7 @@
 	"package": "com.github.itcraftdevelopmentteam.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"PowerOfITCDTMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

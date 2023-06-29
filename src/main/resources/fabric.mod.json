@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.github.itcraftdevelopmentteam.ExampleMod"
+			"com.github.itcraftdevelopmentteam.PowerOfITCDTMod"
 		],
 		"client": [
-			"com.github.itcraftdevelopmentteam.ExampleModClient"
+			"com.github.itcraftdevelopmentteam.PowerOfITCDTModClient"
 		]
 	},
 	"mixins": [
